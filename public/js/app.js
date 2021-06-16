@@ -14,7 +14,7 @@ weatherForm.addEventListener("submit", (e) => {
         return (p1.innerHTML = data.error);
       }
       p1.innerHTML = "Location : " + data.location;
-      p2.innerHTML = "Temperature : " + data.data;
+      p2.innerHTML = "Weather-details : " + data.data;
     });
   });
 });

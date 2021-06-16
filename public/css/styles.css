@@ -63,3 +63,7 @@ button{
     text-decoration: underline;
     color: #888888;
 }
+
+#msg-1,#msg-2{
+    line-height: 1.3;
+}
