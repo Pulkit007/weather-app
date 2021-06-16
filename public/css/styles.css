@@ -54,3 +54,12 @@ button{
     color: white;
     padding: 8px;
 }
+
+#about{
+    line-height: 1.3;
+}
+
+#apilinks{
+    text-decoration: underline;
+    color: #888888;
+}

@@ -13,7 +13,13 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <img class="portrait" src="/images/Gaming_5000x3125.jpg" />
+        <p id="about">This site is created by Pulkit Bhargava which shows the current weather for the place user searches for. This application uses <a id="apilinks" href="https://www.mapbox.com/">mapbox</a> site to find the coordinates of the searched location and then uses <a id="apilinks" href="https://weatherstack.com/">weatherstack</a> api to fetch the data.</p>
+        <br/>
+        <p>This application gives us information about : </p>
+        <ul>
+            <li>Location</li>
+            <li>Current temperature and feels-like temperature</li>
+        </ul>
     </div>
     {{>footer}}
 </body>
